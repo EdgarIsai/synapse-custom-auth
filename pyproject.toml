@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_auth"
+version = "0.1.0"
+authors = [
+  { name="Edgar Salgado", email="esalgado@codemachine.io" },
+]
+description = "A custom password provider for Synapse"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+# Add any external libraries your module needs here
+# For example, if you use the Firebase SDK:
+ dependencies = [
+     "firebase-admin>=6.0.0",
+ ]
+
+#[project.urls]
+#"Homepage" = "https://github.com/your-repo"

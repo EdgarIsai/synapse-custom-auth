@@ -1,0 +1,5 @@
+build
+custom_auth.egg-info
+venv
+.idea
+firebase_creds.json
