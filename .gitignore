@@ -2,4 +2,5 @@ build
 custom_auth.egg-info
 venv
 .idea
+*/**/__pycache__
 firebase_creds.json
